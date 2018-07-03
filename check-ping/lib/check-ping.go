@@ -48,7 +48,7 @@ func run(args []string) *checkers.Checker {
 		opts.Packets = 5
 	}
 	if opts.Timeout == 0 {
-		opts.Timeout = 10
+		opts.Timeout = 2
 	}
 
 	// Parse/Reset Thresholds

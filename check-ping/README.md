@@ -8,7 +8,7 @@ Check ping Response.
 
 ```
 [plugin.checks.icmp]
-command = "/path/to/check-ping -H 192.168.0.100 -w "800, 20%" -c "1000, 40%" -p 5 -t 10
+command = "/path/to/check-ping -H 192.168.0.100 -w "800, 20%" -c "1000, 40%" -p 5 -t 2
 ```
 
 ## Options
